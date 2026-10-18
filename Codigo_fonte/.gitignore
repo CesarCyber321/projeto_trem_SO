@@ -1,0 +1,17 @@
+# Arquivos de compilação
+*.o
+*.obj
+*.exe
+*.out
+
+# Pastas de build
+build/
+cmake-build-*/
+
+# Configurações locais do Qt Creator
+*.user
+*.user.*
+
+# Arquivos temporários
+*~
+.DS_Store
