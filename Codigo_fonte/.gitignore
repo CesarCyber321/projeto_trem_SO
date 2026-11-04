@@ -15,3 +15,11 @@ cmake-build-*/
 # Arquivos temporários
 *~
 .DS_Store
+
+# Arquivos gerados pelo Qt
+.qmake.stash
+Makefile
+moc_*.cpp
+moc_*.h
+ui_*.h
+Trem
