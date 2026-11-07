@@ -56,6 +56,59 @@ void MainWindow::updateInterface(int id, int x, int y){
     }
 }
 
+// Altera a velocidade individual de cada trem
+
+void MainWindow::on_slider_trem1_valueChanged(int valor)
+{
+    trem1->setVelocidade(valor);
+}
+
+void MainWindow::on_slider_trem2_valueChanged(int valor)
+{
+    trem2->setVelocidade(valor);
+}
+
+void MainWindow::on_slider_trem3_valueChanged(int valor)
+{
+    trem3->setVelocidade(valor);
+}
+
+void MainWindow::on_slider_trem4_valueChanged(int valor)
+{
+    trem4->setVelocidade(valor);
+}
+
+void MainWindow::on_slider_trem5_valueChanged(int valor)
+{
+    trem5->setVelocidade(valor);
+}
+
+void MainWindow::on_slider_trem6_valueChanged(int valor)
+{
+    trem6->setVelocidade(valor);
+}
+
+// Controle mestre: altera a velocidade de todos os trens
+void MainWindow::on_slider_mestre_valueChanged(int valor)
+{
+    // Atualiza os seis controles individuais
+    ui->slider_trem1->setValue(valor);
+    ui->slider_trem2->setValue(valor);
+    ui->slider_trem3->setValue(valor);
+    ui->slider_trem4->setValue(valor);
+    ui->slider_trem5->setValue(valor);
+    ui->slider_trem6->setValue(valor);
+
+    // Atualiza a velocidade dos seis trens
+    trem1->setVelocidade(valor);
+    trem2->setVelocidade(valor);
+    trem3->setVelocidade(valor);
+    trem4->setVelocidade(valor);
+    trem5->setVelocidade(valor);
+    trem6->setVelocidade(valor);
+}
+
+
 MainWindow::~MainWindow()
 {
     delete ui;

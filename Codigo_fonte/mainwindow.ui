@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>560</width>
-    <height>440</height>
+    <width>795</width>
+    <height>730</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,11 +26,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_meio">
@@ -45,11 +45,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_base_meio">
@@ -64,11 +64,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_base">
@@ -83,11 +83,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_esq_topo">
@@ -102,11 +102,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_dir_topo">
@@ -121,11 +121,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_div_meio">
@@ -140,11 +140,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_b1">
@@ -159,11 +159,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_b2">
@@ -178,11 +178,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_b3">
@@ -197,11 +197,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho_b4">
@@ -216,11 +216,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #0055ff}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trem1">
@@ -235,11 +235,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #e6e6e6; border: 1px solid #555; font-weight: bold}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string>a</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trem2">
@@ -254,11 +254,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #e6e6e6; border: 1px solid #555; font-weight: bold}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string>b</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trem3">
@@ -273,11 +273,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #e6e6e6; border: 1px solid #555; font-weight: bold}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string>c</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trem4">
@@ -292,11 +292,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #e6e6e6; border: 1px solid #555; font-weight: bold}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string>d</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trem5">
@@ -311,11 +311,11 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #e6e6e6; border: 1px solid #555; font-weight: bold}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string>e</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_trem6">
@@ -330,14 +330,13 @@
     <property name="styleSheet">
      <string notr="true">QLabel { background: #e6e6e6; border: 1px solid #555; font-weight: bold}</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="text">
      <string>f</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
    </widget>
-
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
@@ -364,33 +363,150 @@
      <string>Parar</string>
     </property>
    </widget>
-   <zorder>label_trilho_topo</zorder>
-   <zorder>label_trilho_meio</zorder>
-   <zorder>label_trilho_base_meio</zorder>
-   <zorder>label_trilho_base</zorder>
-   <zorder>label_trilho_esq_topo</zorder>
-   <zorder>label_trilho_dir_topo</zorder>
-   <zorder>label_trilho_div_meio</zorder>
-   <zorder>label_trilho_b1</zorder>
-   <zorder>label_trilho_b2</zorder>
-   <zorder>label_trilho_b3</zorder>
-   <zorder>label_trilho_b4</zorder>
-   <zorder>label_trem1</zorder>
-   <zorder>label_trem2</zorder>
-   <zorder>label_trem3</zorder>
-   <zorder>label_trem4</zorder>
-   <zorder>label_trem5</zorder>
-   <zorder>label_trem6</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
+   <widget class="QSlider" name="slider_trem1">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>436</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_trem2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>470</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_trem3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>500</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_trem4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>520</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_trem5">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>540</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_trem6">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>560</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_mestre">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>600</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>560</width>
-     <height>22</height>
+     <width>795</width>
+     <height>23</height>
     </rect>
    </property>
   </widget>

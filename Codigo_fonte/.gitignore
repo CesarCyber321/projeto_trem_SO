@@ -23,3 +23,5 @@ moc_*.cpp
 moc_*.h
 ui_*.h
 Trem
+
+.qtc_clangd/

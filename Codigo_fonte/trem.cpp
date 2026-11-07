@@ -1,5 +1,6 @@
 #include "trem.h"
 #include <QtCore>
+#include <QMutexLocker>
 
 //Construtor
 Trem::Trem(int ID, int x, int y){
@@ -7,6 +8,19 @@ Trem::Trem(int ID, int x, int y){
     this->x = x;
     this->y = y;
     velocidade = 100;
+}
+
+void Trem::setVelocidade(int velocidade)
+{
+    QMutexLocker locker(&mutex);
+
+    if (velocidade < 0)
+        velocidade = 0;
+
+    if (velocidade > 200)
+        velocidade = 200;
+
+    this->velocidade = velocidade;
 }
 
 //Função a ser executada após executar trem->START
@@ -31,6 +45,20 @@ void Trem::run()
     emit updateGUI(ID, x, y);
 
     while (true) {
+
+        int velocidadeAtual;
+
+        {
+        QMutexLocker locker(&mutex);
+        velocidadeAtual = velocidade;
+        }
+
+    // Velocidade zero significa trem parado
+    if (velocidadeAtual == 0) {
+        msleep(10);
+        continue;
+    }
+
         const int alvoX = percurso[indiceTrem][ponto][0];
         const int alvoY = percurso[indiceTrem][ponto][1];
 
@@ -48,6 +76,6 @@ void Trem::run()
         if (x == alvoX && y == alvoY)
             ponto = (ponto + 1) % 5;
 
-        msleep(velocidade);
+        msleep(201 - velocidadeAtual);
     }
 }
